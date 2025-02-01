@@ -1,0 +1,31 @@
+.c5{
+    border: 1px solid #fff;
+    border-radius: 5rem;
+    width: 42.8rem;
+    height: 50rem;
+    background: #202020;
+    padding: 5.1rem 2.9rem 6.2rem 2.9rem;
+}
+.c5-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 2.5rem;
+    margin-top: 4rem;
+}
+.c5-item{
+    display: flex;
+    gap: 1.7rem;
+    align-items: center;
+}
+.c5-item img{ 
+    height: 3.6rem;
+    width: 4.8rem;
+}
+.c5-line{
+    border: 1px solid #444;
+    width: 37rem;
+    height: 0px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}

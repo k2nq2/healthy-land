@@ -1,0 +1,167 @@
+header {
+    padding-top: 2.9rem;
+    padding-bottom: 4.2rem;
+    background-image: url(../../images/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+}
+.header-logo{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+.header-title{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 5.3rem;
+    line-height: 94%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+}
+.header-subtitle{
+    font-family: var(--fourth-family);
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 57%;
+    text-align: center;
+    color: #fffb20;
+    transform: rotate(-5deg);
+    margin-top: 0.9rem;
+}
+.header-pers{
+    height: 54.6rem;
+    width: 42.8rem;
+    margin-left: -3rem;
+    margin-top: -0.5rem;
+    margin-bottom: -51.3rem;
+    position: relative;
+    z-index: 1;
+}
+
+.header-underprice{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 1.4rem;
+line-height: 143%;
+text-align: center;
+color: #fff;
+position: relative;
+z-index: 2;
+
+}
+.header-price-wrap{
+position: relative;
+z-index: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-right: 22rem;
+}
+.header-price-old{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    background:  linear-gradient(180deg, #fff2af 0%, #dcc290 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: -2rem;
+    position: relative;
+    z-index: 1;
+    gap: 0.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.header-price-new{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    background: linear-gradient(-22deg, #F9561D 0%, #933311 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 2rem;
+    gap: 0.5rem;
+    padding-top: 1.5rem;
+    margin-bottom: 13rem;
+}
+.header-btn{
+    background: linear-gradient(180deg, #fffb20 0%, #fffb20 100%);
+    border-radius: 15rem;
+    border: 0.2rem solid rgba(255, 255, 255, 0.2);
+    width: 36.9rem;
+    height: 8.8rem;
+    margin-top: 2.1rem;
+    position: relative;
+    z-index: 1;
+}
+.header-btn-grad{
+    width: 100%;
+    height: 100%;
+    background:radial-gradient(55.45% 129.03% at 53.12% 21%, rgb(255, 255, 255, 0.2) 0%, rgb(255, 255, 255, 0.01) 100%);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 137%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #4d4837;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-timer_text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    margin-top: 1.8rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.timer {
+    display: flex;
+    gap: 0.7rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.hours-wrap p,
+.minutes-wrap p,
+.seconds-wrap p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 100%;
+    text-align: center;
+    color: #7d7d7d;
+    margin-top: 0.5rem;
+}
+
+#hours,
+#minutes,
+#seconds {
+    background-color: #ffff;
+    border-radius: 15rem;
+    width: 8.7rem;
+    height: 3rem;
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 92%;
+    text-align: center;
+    color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
